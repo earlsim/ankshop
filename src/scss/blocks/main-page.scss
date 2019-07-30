@@ -1,0 +1,18 @@
+.ank-main-page {
+  &__container {
+    max-width: 1055px;
+    margin: 0 auto;
+  }
+  &__img {
+    width: 100%;
+  }
+  &__inner {
+    margin: 100px 0;
+    &--mb-180 {
+      margin: 100px 0 180px 0;
+    }
+    &--mt0 {
+      margin-top: 0;
+    }
+  }
+}

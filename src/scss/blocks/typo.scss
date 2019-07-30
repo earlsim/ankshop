@@ -1,0 +1,51 @@
+.ankshop-typo {
+  position: relative;
+  min-height: 400px;
+  height: 100vh;
+
+  @media ($m-xs) {
+    min-height: 700px;
+  }
+}
+.ankshop-typo-content {
+  position: relative;
+  margin: 262px 0 204px 0;
+}
+.ankshop-typo-styles {
+  position: absolute;
+  bottom: 64px;
+  font-size: 20px;
+  line-height: 1.600em;
+  color: $c-light-gray;
+  opacity: .2;
+  & span:first-child {
+    margin-right: 64px;
+  }
+}
+.typo-content__text {
+  font-size: 20px;
+  line-height: 1.600em;
+  color: $c-light-gray;
+  opacity: .2;
+  
+}
+.typo-content__title {
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1.222em;
+  color: $c-light-gray;
+
+  @media ($m-xs) {
+    font-size: 144px;
+  }
+}
+.typo-content__bg-text {
+  position: absolute;
+  top: -113px;
+  left: 330px;
+  font-size: 288px;
+  font-weight: 500;
+  line-height: 1.226em;
+  color: $c-dark-gray;
+  opacity: 0.05;
+}

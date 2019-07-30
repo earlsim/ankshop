@@ -1,0 +1,16 @@
+// System
+@import './system/_fonts.scss';
+@import './system/_vars.scss';
+@import './system/_start.scss';
+@import './system/base.scss';
+
+// Blocks
+@import 'blocks/about.scss';
+@import 'blocks/all-screens.scss';
+@import 'blocks/colors.scss';
+@import 'blocks/grid.scss';
+@import 'blocks/main-page.scss';
+@import 'blocks/mobile.scss';
+@import 'blocks/header.scss';
+@import 'blocks/search.scss';
+@import 'blocks/typo.scss';

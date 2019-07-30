@@ -1,0 +1,32 @@
+.ankshop {
+  font-family: 'Avenir Next Cyr', Arial, sans-serif;
+}
+.ankshop-title {
+  padding-top: 64px;
+  font-size: 12px;
+  line-height: 1.333em;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: $c-light-gray;
+  opacity: 0.2;
+  &--pl64 {
+    padding-left: 64px;
+  }
+  &--dg {
+    color: $c-dark-gray;
+    opacity: 1;
+  }
+}
+.ank-container {
+  padding: 0 64px;
+}
+.ank-block {
+  background-color: $c-light-gray;
+  overflow: hidden;
+  &--black {
+    background-color: $c-text-primary;
+  }
+  &--white {
+    background-color: $c-white;
+  }
+}

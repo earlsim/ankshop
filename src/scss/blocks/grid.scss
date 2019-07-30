@@ -1,0 +1,72 @@
+.ank-grid {
+  position: relative;
+  min-height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: $c-dark-gray;
+
+  &-title {
+    position: absolute;
+    top: 0;
+    left: 64px;
+    color: $c-dark-gray;
+    opacity: 1;
+  }
+  &__table {
+    width: 78.333%;
+    max-width: 840px;
+    max-height: 472.25px;
+    display: flex;
+    &-img {
+      width: 100%;
+      height: 100%;
+    }
+    &-title {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      right: 4%;
+      font-size: 56px;
+      font-weight: 500;
+      line-height: 1.104em;
+      opacity: .1;
+    }
+    &-legend {
+      display: flex;
+      margin-bottom: 16px;
+      color: $c-text-primary;
+      font-size: 12px;
+      line-height: 1.333em;
+    }
+  }
+
+  @media ($m-xs) {
+    &__table {
+      width: 58.333%;
+    }
+  }
+
+  @media ($m-m) {
+    &__table-title {
+      font-size: 96px;
+    }
+  }
+}
+.ank-table-legend{
+
+  &--1 {
+    flex-basis: 14%;
+  }
+  &--2 {
+    flex-basis: 41.5%;
+  }
+  &--3 {
+    flex-basis: 14%;
+  }
+}

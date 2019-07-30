@@ -1,0 +1,25 @@
+.ank-mobile-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+.ank-mobile-column {
+  display: flex;
+  flex-direction: column;
+  width: 28.79%;
+
+  & img {
+    width: 100%;
+    transition: .2s;
+    &:hover {
+      transform: scale(1.15);
+    }
+    &:first-child {
+      margin-bottom: 72px;
+    }
+  }
+
+  &__img--64 {
+    margin-top: 64px;
+  }
+}

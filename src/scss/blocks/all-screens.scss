@@ -1,0 +1,16 @@
+.ank-all-screens {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  &__column {
+    width: 31.18%;
+    & img {
+      width: 100%;
+      margin-bottom: 26px;
+      transition: .2s;
+      &:hover {
+        transform: scale(1.15);
+      }
+    }
+  }
+}
